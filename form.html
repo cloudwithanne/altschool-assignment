@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/form.css">
+    <title>Form</title>
+</head>
+<body>
+    <form action="https://altschoolafrica.com" method="get">
+        <div class="title">
+            <h1>Sign Up</h1>
+            <p>Take the next steps to apply at Altschool Africa</p>
+        </div>
+        <div>
+            <span>
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" placeholder="Firstname" />
+            </span>
+            <span>
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname"  placeholder="Lastname" />
+            </span>
+        </div>
+
+        <div>
+            <span>
+                <label for="Gender">Gender</label>
+                <select name="Gender" id="" aria-placeholder="Select gender">
+                    <option value=""></option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </span>
+            <span>
+                <label for="date">D.O.B</label>
+                <input type="date" name="date"/>
+            </span>
+        </div>
+        <div>
+            <span>
+                <label for="email">Email Address</label>
+                <input type="email" name="email" placeholder="Email Address">
+            </span>
+            <span>
+                <label for="phone">Phone Number</label>
+                <input type="number" name="phone" placeholder="Phone Number">
+            </span>
+        </div>
+        <div>
+            <span>
+                <label for="country">Country</label>
+                <select name="country" id="">
+                    <option value=""></option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="USA">USA</option>
+                    <option value="Kenya">Kenya</option>
+                </select>
+            </span>
+            <span>
+                <label for="state">State/City of residence</label>
+                <input type="text" name="state" placeholder="State" />
+            </span>
+        </div>
+        <div class="how-channel">
+            <label for="channel">How did you hear about us?</label>
+            <select name="channel">
+                <option value="Twitter">Twitter</option>
+                <option value="LinkedIn">LinkedIn</option>
+                <option value="Facebook">Facebook</option>
+                <option value="YouTube">YouTube</option>
+                <option value="Twitch">Twitch</option>
+                <option value="Referral">Twitter</option>
+            </select>
+        </div>
+        <div>
+            <span>
+                <label for="password">Password </label>
+                <input type="password" name="password" placeholder="Password" >
+            </span>
+            <span>
+                <label for="confirm_pw">Confirm Password</label>
+                <input type="password" name="confirm_pw" placeholder="Confirm Password">
+            </span>
+        </div>
+        <p>By clicking continue, I agree to  Terms of Use and acknowledge that I
+            have read the  Privacy Policy</p>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

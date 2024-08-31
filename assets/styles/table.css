@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Satisfy&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Nunito-Sans : "Nunito Sans", system-ui;
+    --Open-Sans : "Open Sans", system-ui;
+    --space-grotesk: "Space Grotesk", sans-serif;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    gap: 50px;
+    background-color: bisque;
+}
+
+.hero h1{
+    font-family: var(--space-grotesk);
+    font-size: 2.3rem;
+}
+
+.hero p{
+    font-family: var(--Nunito-Sans);
+    font-size: 1.3rem;
+}
+
+.hero button{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+table{
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin: 50px 0px;
+}
+
+table thead{
+    background-color: black;
+    color: rgb(255, 255, 255);
+
+}
+
+table tr td{
+    padding: 10px;
+    font-family: var(--Nunito-Sans);
+}
+
+table tr:nth-of-type(even){
+    background-color: bisque;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    gap: 7%;
+
+}
+
+.details div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: var(--Nunito-Sans);
+    font-size: 1.2rem;
+}
+
+.details button{
+    width: 150px;
+    padding: 15px;
+    font-size: 1rem;
+    background-color: rgb(106, 111, 245);
+    border: none;
+    color: azure;
+}
+

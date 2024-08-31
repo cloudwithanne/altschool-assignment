@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Satisfy&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Open-Sans : "Open Sans", system-ui;
+    --space-grotesk: "Space Grotesk", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    gap: 20px;
+}
+
+.title{
+    display: block;
+}
+
+.title h1{
+    margin-bottom: 10px;
+    font-family: var(--space-grotesk);
+}
+
+.title p{
+    margin-bottom: 10px;
+
+}
+
+form div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+form div span{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+form div input, select{
+    padding: 15px;
+    font-family: var(--Open-Sans);
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: rgb(244, 242, 242);
+
+}
+
+form div input:focus{
+    border: 1.5px solid rgb(106, 111, 245);
+}
+
+form div label{
+    font-family: var(--space-grotesk);
+}
+
+.how-channel{
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+}
+
+form p{
+    font-family:  var(--Open-Sans);
+}
+
+button{
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    background-color: rgb(106, 111, 245);
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+
+
